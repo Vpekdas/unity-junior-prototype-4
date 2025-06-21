@@ -40,8 +40,8 @@ The objective of this prototype is to create two simple games:
 - The powerup never goes away -> The powerup should only last for a certain duration, then disappear.
 - 2 enemies are spawned in every wave -> One enemy should be spawned in wave 1, two in wave 2, three in wave 3, etc.
 - The enemy balls are not moving anywhere -> The enemy balls should go towards the “Player Goal” object.
-- The player needs a turbo boost -> The player should get a speed boost whenever the player presses spacebar - and a particle effect should appear when they use it .
-- The enemies never get more difficult -> The enemies’ speed should increase in speed by a small amount with every new wave
+- The player needs a turbo boost -> The player should get a speed boost whenever the player presses spacebar and a particle effect should appear when they use it.
+- The enemies never get more difficult -> The enemies’ speed should increase in speed by a small amount with every new wave.
   
 ## Controls
 
