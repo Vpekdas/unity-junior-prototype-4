@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerControllerX : MonoBehaviour
 {
@@ -34,6 +35,10 @@ public class PlayerControllerX : MonoBehaviour
         else
         {
             _playerRb.AddForce(_speed * Time.deltaTime * verticalInput * _focalPoint.transform.forward);
+        }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene(0, LoadSceneMode.Single);
         }
 
     }

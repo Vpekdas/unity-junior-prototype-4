@@ -44,6 +44,10 @@ public class PlayerController : MonoBehaviour
         {
             RestartText.gameObject.SetActive(true);
         }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene(0, LoadSceneMode.Single);
+        }
     }
 
 
